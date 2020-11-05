@@ -1,8 +1,21 @@
 // Main Stylesheet
 
-.titleBar {
-  background-color: #000;
-  display: block;
-  color: #fff;
-  padding-left: 16px;
-}
+// React Bootstrap Import
+@import "~bootstrap/scss/bootstrap";
+
+// Google Fonts - Import
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Resets
+@import './base/resets';
+
+// Settings
+@import './base/settings';
+
+// Main Components
+@import './components/header';
+@import './components/search';
+@import './components/moviecard';
+@import './components/moviedetails';
+@import './components/about';
+@import './components/favourites';

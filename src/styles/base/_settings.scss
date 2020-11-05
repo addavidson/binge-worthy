@@ -1,0 +1,26 @@
+// Base Style Settings
+
+// Typeface
+$headingFont: 'Cabin Sketch', cursive;
+$bodyFont: 'Open Sans', sans-serif;
+
+body {
+    font-family: $bodyFont;
+    background-image: linear-gradient(#051b2b, #0b5275);
+}
+
+h1, h2, h3, h4, .navbar {
+    font-family: $headingFont;
+}
+
+.wrapper {
+    margin-bottom: 2rem;
+}
+
+// Colours
+$light: white;
+$dark: #051b2b;
+$lightBlue: #076c9b;
+
+// Other
+$imgShadow: 7px 7px 5px 3px rgba(23, 41, 49, 0.74);

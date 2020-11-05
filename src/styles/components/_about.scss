@@ -1,0 +1,69 @@
+// About page styles
+
+.about-us {
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    img {
+        max-width: 150px;
+    }
+}
+
+.about-card {
+    color: $light;
+    margin: 0 10%;
+
+    img {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        box-shadow: $imgShadow;
+        background-color: rgb(13, 37, 63);
+    }
+
+    span {
+        font-family: $headingFont;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    h1 {
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .api-info {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 630px) {
+    .about-us {
+        min-width: 300px;
+        height: 100vh;
+
+        img {
+            margin: 0;
+        }
+    }
+
+    .about-card-content {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-items: center;
+
+        .api-info {
+            margin-top: 0;
+        }
+    }
+
+    .site-info {
+        margin-right: 2rem;
+    }
+
+}

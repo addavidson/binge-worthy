@@ -1,0 +1,20 @@
+// header styles
+
+@import "~bootstrap/scss/bootstrap";
+
+.navbar {
+    background-color: $dark;
+    color: $light;
+}
+
+.navbar-brand {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.nav-link {
+    text-align: center;
+    font-size: 1.3em;
+}

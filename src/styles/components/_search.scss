@@ -1,0 +1,36 @@
+// Search bar styles
+
+.searchbar input {
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    line-height: 2rem;
+    background-color: azure;
+    color: $lightBlue;
+}
+
+.filter-movies {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+
+    label {
+        color: $light;
+        font-family: $headingFont;
+        margin-right: 0.5rem;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 992px) {
+    // have search bar styled so it's only portion of
+    //the page instead of full-width
+    .searchbar input {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+}

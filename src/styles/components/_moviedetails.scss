@@ -1,0 +1,80 @@
+// movie details page styles
+
+.movie-details {
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.movie-release-date,
+.movie-rating {
+    font-family: $headingFont;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.detail-card {
+    color: $light;
+    margin: 0 10%;
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        border: 3px solid $lightBlue;
+        box-shadow: $imgShadow;
+    }
+
+    .detail-card--content {
+        margin-top: 1.5rem;
+    }
+
+    .detail-card--title {
+        margin-bottom: 1rem;
+    }
+
+    input {
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid $dark;
+        margin: 0 auto;
+        background-color: $lightBlue;
+        color: azure;
+        transition: 0.3s;
+    }
+
+    input:hover {
+        background-color: azure;
+        color: $dark;
+    }
+}
+
+@media (min-width: 630px) {
+    .movie-details {
+        min-width: 300px;
+        height: 100vh;
+        img {
+            max-width: 300px;
+        }
+    }
+
+    .detail-card--content {
+        margin-left: 2rem;
+        text-align: left;
+    }
+
+    .detail-card--main {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
